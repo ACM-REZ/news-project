@@ -1,0 +1,81 @@
+.card-text__about {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  cursor: pointer;
+}
+
+.card-text-about__title {
+  margin: 0;
+}
+
+.card-text-about__title span {
+  color: var(--color-white);
+}
+
+.card-text-about__description {
+  margin: 0;
+
+  line-height: 23px;
+  color: var(--color-regent-gray);
+}
+
+.card-text-about__description span {
+  color: var(--color-regent-gray);
+}
+
+.card-text-white {
+  color: var(--color-white);
+  font-family: "Roboto";
+}
+
+.card-text-roboto-p {
+  font-size: var(--font-size-textRoboto-small);
+  line-height: 21px;
+}
+
+.card-image__favorites {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  width: 44px;
+  height: 44px;
+
+  background-color: var(--color-white);
+  cursor: pointer;
+}
+
+.card-image__favorites-transparent {
+  background-color: var(--color-none);
+}
+
+.card-text-container {
+  margin-top: 12px;
+}
+
+.card-text-isbackground .card-text-about__title {
+  color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  .card-text-container {
+    max-width: 518px;
+  }
+
+  .card-text-promotions {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card-image__favorites-promotion {
+    position: static;
+
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

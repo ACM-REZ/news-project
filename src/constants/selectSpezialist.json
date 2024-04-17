@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Верстальщик",
+    "value": "layoutDesigner"
+  },
+  {
+    "label": "Выбрать",
+    "value": "choose"
+  },
+  {
+    "label": "Выбранный пункт",
+    "value": "choosen"
+  },
+  {
+    "label": "Не выбран",
+    "value": "choosent"
+  },
+  {
+    "label": "Hover",
+    "value": "hover"
+  }
+]

@@ -1,0 +1,32 @@
+.react-select__input {
+  height: 100%;
+}
+
+.react-select-option {
+  position: relative;
+  padding: 6px 25px;
+
+  display: flex;
+}
+
+.react-select-option_selected {
+  background-color: var(--color-wild-sand);
+}
+
+.react-select-option__p {
+  margin: 0;
+  line-height: 23px;
+}
+
+.option-selected::before {
+  content: '';
+
+  position: absolute;
+  top: 14.75px;
+  left: 11px;
+
+  display: block;
+  width: 10px;
+  height: 7px;
+  background-image: url("../../../assets/icons/selected.svg");
+}

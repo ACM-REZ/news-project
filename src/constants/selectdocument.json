@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Выбранный пункт",
+    "value": "choosen"
+  },
+  {
+    "label": "Паспорт РФ",
+    "value": "passport"
+  },
+  {
+    "label": "Выбрать",
+    "value": "choose"
+  },
+  {
+    "label": "Не выбран",
+    "value": "choosent"
+  },
+  {
+    "label": "Hover",
+    "value": "hover"
+  }
+]

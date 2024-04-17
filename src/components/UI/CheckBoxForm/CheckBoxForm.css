@@ -1,0 +1,117 @@
+.checkbox-wrapper {
+  display: flex;
+  align-items: center;
+  cursor: pointer; 
+  margin-bottom: 13px;
+
+  height: 16px;
+}
+
+.checkbox-wrapper:last-child {
+  margin: 0;
+}
+
+.checkbox-wrapper label {
+  color: var(--color-outer-space);
+  line-height: 15px;
+  font-size: var(--font-size-text-normal);
+  cursor: pointer;
+}
+
+.checkbox-wrapper input[type="checkbox"] {
+  appearance: none;
+  cursor: pointer;
+
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+
+  border: 1px solid var(--color-regent-gray);
+  border-radius: 2px;
+
+}
+
+.checkbox-wrapper input[type="checkbox"]:checked {
+  background-image: url("../../../assets/icons/Checkbox_checked.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  border: none
+}
+
+.checkbox-wrapper input[type="checkbox"]:disabled {
+  background-color: #f1f1f1;
+  border: 1px solid #e8e8e8;
+
+  border: var(--border-greenWhite-small);
+  background-color: var(--color-seashell);
+  cursor: auto;
+}
+
+.checkbox-wrapper input[type="checkbox"]:disabled + label {
+  cursor: auto;
+}
+
+.checkbox-wrapper input[type="checkbox"]:disabled:checked {
+  background-image: url("../../../assets/icons/Checkbox_disabled.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  border: none
+} 
+
+
+.radio-wrapper {
+  display: flex;
+
+  margin-bottom: 13px;
+  height: 16px;
+}
+
+.radio-wrapper label {
+  display: block;
+
+  color: var(--color-outer-space);
+  line-height: 15px;
+  font-size: var(--font-size-text-normal);
+  
+  cursor: pointer;
+}
+
+.radio-wrapper input[type="radio"] {
+  appearance: none;
+  cursor: pointer;
+
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+
+
+  border-radius: 50%;
+  border: var(--border-regentGray-small); 
+}
+
+.radio-wrapper input[type="radio"]:disabled  {
+  
+}
+
+.radio-wrapper input[type="radio"]:disabled + label {
+  cursor: auto;
+}
+
+.radio-wrapper input[type="radio"]:checked {
+  background-image: url('../../../assets/icons/Radio_checked.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  border: none;
+}
+
+.radio-wrapper input[type="radio"]:checked:disabled {
+  background-image: url('../../../assets/icons/Radio_disabled.svg');
+
+  border: none;
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Избранное",
+    "value": "favorite"
+  },
+  {
+    "name": "Моя компания",
+    "value": "company"
+  },
+  {
+    "name": "Моё развитие",
+    "value": "development"
+  },
+  {
+    "name": "Новости компании",
+    "value": "news"
+  },
+  {
+    "name": "Телефонная книга",
+    "value": "phone"
+  }
+]

@@ -1,0 +1,23 @@
+.ButtonBlue {
+  width: 100%;
+  height: 36px;
+  
+  color: var(--color-white);
+  font-family: 'PT Sans';
+  font-size: var(--font-size-text-small);
+  font-weight: 700;
+
+  border-radius: 3px;
+  border: var(--border-blueRoyal-small);
+  background: var(--color-royal-blue-light); 
+}
+
+.ButtonBlue:hover {
+  background: var(--color-royal-blue); 
+}
+
+.button__save {
+  font-size: 14px;
+
+  background: var(--color-cornflower-blue);
+}

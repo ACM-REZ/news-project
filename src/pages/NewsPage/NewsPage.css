@@ -1,0 +1,30 @@
+.news {
+  margin-top: 30px;
+  padding: 0; 
+}
+
+.news-title {
+  margin: 0;
+  padding: 0 20px;
+}
+
+@media (min-width: 768px) {
+  .news {
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .news {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    margin-top: 60px;
+    padding: 0 20px;
+  }
+
+  .news-title {
+    padding: 0;
+  }
+}
+
